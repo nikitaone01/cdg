@@ -1,18 +1,18 @@
 def greeting(age)
     if age  >= 18
-        "Hello let's work together!"
+        "Самое время заняться делом!"
     else
-        "Let's try next year!"
+        "Тебе меньше 18 лет, но начать учиться программировать никогда не рано!"
     end
 end
 
-print 'Enter firstname >'
+print 'Введите Имя >'
 firstname = gets.chomp
 
-print 'Enter lastname'
+print 'Введите Фамилию >'
 lastname = gets.chomp
 
-print 'Enter age'
+print 'Введите возраст >'
 age = gets.to_i
 
-puts "Hello, #{firstname} #{lastname}!" + greeting(age) 
+puts "Привет, #{firstname} #{lastname}!" + greeting(age) 
