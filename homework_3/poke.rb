@@ -12,7 +12,7 @@ def poke(count)
     pokemons
 end
 
-print "Сколько покемонов?\n"
+print "Сколько покемонов?"
 count = gets.to_i
 
 puts poke(count)
